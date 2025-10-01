@@ -252,12 +252,12 @@ span {
 
     0%,
     25% {
-        content: " Web Developer";
+        content:" React Developer";
     }
 
     26%,
     50% {
-        content: " Frontend Developer";
+        content: " Web Developer";
     }
 
     51%,
@@ -267,7 +267,7 @@ span {
 
     76%,
     100% {
-        content: " React Developer";
+        content: " Quick Learner";
     }
 }
 
@@ -459,7 +459,8 @@ span {
     margin-bottom: 5rem;
 }
 .skills-box img{
-    width: 15rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     border: 3px solid var(--main-color);
 box-shadow: 0 0 25px var(--main-color);
