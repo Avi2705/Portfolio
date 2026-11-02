@@ -4,595 +4,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avinash R | Software Developer – MERN Full Stack</title>
-    <meta name="description" content="Portfolio of Avinash R - MERN Full Stack Software Developer specializing in React.js, Node.js, Express.js, MongoDB, REST APIs, and AI Integrations.">
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
+    <title>Avinash R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header class="header">
-        <a href="#home" class="logo">Avinash <span>R</span></a>
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="#home" class="logo">Avinash R </a>
+        <i class="fa-solid fa-bars" class="menu-icon" id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
             <a href="#education">Education</a>
+            <a href="images/SOFTWAREDEVELOPER.pdf" target="_blank">View Resume</a>
+            <a href="images/SOFTWAREDEVELOPER.pdf" download="Avinash_Resume.pdf">Download Resume</a>
+            <a href="#skill">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="images/SOFTWAREDEVELOPER.pdf" target="_blank" class="nav-resume-btn">
-                <i class="fa-solid fa-file-pdf"></i> Resume
-            </a>
         </nav>
     </header>
 
-    <!-- Hero / Home Section -->
     <section class="home" id="home">
         <div class="home-content">
-            <div class="badge-pill">
-                <span class="status-dot"></span> Open to Opportunities
-            </div>
-            <h1>Hi, It's <span>Avinash R</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-            
+            <h1>Hi, It's <span>Avinash</span></h1>
+            <h3 class="text-animation">I'm a<span></span></h3>
+
             <p>
-                Software Developer specializing in <strong>MERN Full Stack</strong> development.
+                My name is Avinash. I am a Software Developer specializing in MERN Full Stack development.
                 Experienced in building secure, scalable web applications with robust REST APIs protected by JWT, RBAC, and Helmet.js,
-                and integrating payment gateways, OAuth, and <strong>3 LLM APIs (Gemini, DeepSeek, Claude)</strong> into production-grade SaaS products.
-                Backed by core computer science fundamentals and <strong>100+ solved LeetCode</strong> problems.
+                and integrating payment gateways, OAuth, and 3 LLM APIs (Gemini, DeepSeek, Claude) into production SaaS products.
+                Backed by core Computer Science fundamentals and 100+ solved LeetCode problems.
             </p>
-
-            <div class="quick-info">
-                <span><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu, India</span>
-                <span><i class="fa-solid fa-graduation-cap"></i> B.E. CSE (CGPA: 8.3/10)</span>
-            </div>
-
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/avinash2705" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
+
                 <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
                     <i class="fa-brands fa-github"></i>
                 </a>
+
                 <a href="https://leetcode.com/u/Avinash_developer" target="_blank" rel="noopener noreferrer" title="LeetCode">
                     <img src="./images/leetcode.png" alt="LeetCode">
-                </a>
-                <a href="mailto:avinashdeveloper27@gmail.com" title="Email Me">
-                    <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
 
             <div class="btn-group">
-                <a href="#contact" class="btn">Contact Me</a>
-                <a href="#projects" class="btn btn-outline">View Projects</a>
-                <a href="images/SOFTWAREDEVELOPER.pdf" download="Avinash_Resume.pdf" class="btn btn-outline">
-                    <i class="fa-solid fa-download"></i> Download CV
-                </a>
+                <a href="#contact" class="btn">Contact</a>
+                <a href="images/SOFTWAREDEVELOPER.pdf" download="Avinash_Resume.pdf" class="btn">Download CV</a>
             </div>
         </div>
-
         <div class="home-img">
-            <div class="img-wrapper">
-                <img src="images/pic.jpeg" alt="Avinash R">
-            </div>
+            <img src="images/pic.jpeg" alt="Avinash R">
         </div>
+
     </section>
 
-    <!-- Work Experience Section -->
-    <section class="experience" id="experience">
-        <h2 class="heading">Work <span>Experience</span></h2>
-        
-        <div class="experience-container">
-            <div class="experience-card">
-                <div class="exp-header">
-                    <div class="exp-role">
-                        <h3>Software Developer Intern</h3>
-                        <h4><i class="fa-solid fa-building"></i> Softtwig Technology Solutions <span class="exp-location">· Chennai (On-site)</span></h4>
-                    </div>
-                    <div class="exp-date">
-                        <span><i class="fa-regular fa-calendar-days"></i> August 2026 – October 2026</span>
-                        <a href="https://admadeee.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-live">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-
-                <div class="exp-body">
-                    <p class="exp-summary">
-                        <strong>Product: AdMadee</strong> — Multi-tenant AI marketing SaaS platform designed for 3 distinct user roles (Admin, Employee, Customer).
-                    </p>
-                    <ul class="exp-highlights">
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            <div><strong>Architected SaaS Architecture:</strong> Engineered multi-tenant AI marketing SaaS using React.js, Node.js, Express.js, and MongoDB, enabling businesses to create image/video ads, manage customer leads, and publish directly from a single unified dashboard.</div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            <div><strong>Secured 20+ REST API Routes:</strong> Enforced rigorous Role-Based Access Control (RBAC) across Admin, Employee, and Customer roles with JWT authentication, bcrypt password hashing, Helmet.js security headers, and middleware authorization; validated all endpoints via Postman.</div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            <div><strong>Multi-LLM Integration (&lt;10s Generation):</strong> Accelerated ad copy creation to under 10 seconds by orchestrating 3 LLM APIs (Gemini, DeepSeek, Claude) for real-time generation of high-converting headlines, descriptions, CTAs, and video scripts.</div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-circle-check"></i>
-                            <div><strong>End-to-End Automation:</strong> Integrated Razorpay payment gateway for recurring subscriptions, Meta OAuth for direct Facebook & Instagram ad publishing, automated website lead-capture pipelines, and cron-based background email delivery.</div>
-                        </li>
-                    </ul>
-
-                    <div class="tech-tags">
-                        <span>React.js</span>
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>MongoDB</span>
-                        <span>Gemini API</span>
-                        <span>DeepSeek</span>
-                        <span>Claude</span>
-                        <span>Razorpay</span>
-                        <span>Meta OAuth</span>
-                        <span>JWT & RBAC</span>
-                        <span>Helmet.js</span>
-                        <span>Postman</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2 class="heading">Featured <span>Projects</span></h2>
-
-        <div class="projects-grid">
-            <!-- Project 1: AdMadee -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-badge featured">Featured SaaS</div>
-                    <div class="project-links">
-                        <a href="https://admadeee.vercel.app/" target="_blank" rel="noopener noreferrer" title="Live Demo">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>AdMadee – AI Marketing SaaS</h3>
-                    <p class="project-subtitle">Multi-Tenant AI Ad Creation & Lead Management Platform</p>
-                    <p class="project-desc">
-                        Production-grade marketing platform with 3-tier RBAC (Admin, Employee, Customer). Integrates Gemini, DeepSeek, and Claude to generate dynamic ad creatives in under 10s, coupled with Razorpay subscriptions and Meta social publishing.
-                    </p>
-                    <ul class="project-bullets">
-                        <li>Multi-tenant dashboard with 20+ secured REST API routes.</li>
-                        <li>AI-powered headline, CTA, and video script generation.</li>
-                        <li>Automated lead capture & cron-scheduled email workflows.</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span>React.js</span>
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>MongoDB</span>
-                        <span>Multi-LLM APIs</span>
-                        <span>Razorpay</span>
-                    </div>
-                    <div class="project-cta">
-                        <a href="https://admadeee.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
-                            <i class="fa-solid fa-bolt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 2: Job Hunter -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-badge">Full Stack & AI</div>
-                    <div class="project-links">
-                        <a href="https://jobhunter-jet.vercel.app/" target="_blank" rel="noopener noreferrer" title="Live Demo">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Job Hunter – AI Recruiting Platform</h3>
-                    <p class="project-subtitle">Intelligent Job Matching & Resume Optimization System</p>
-                    <p class="project-desc">
-                        Comprehensive recruiting application built with 4 core modules: job discovery, intelligent recommendations, resume management, and automated application pipelines.
-                    </p>
-                    <ul class="project-bullets">
-                        <li>Multi-criteria query search engine with 3+ filter dimensions.</li>
-                        <li>AI-assisted auto-apply engine selecting the best-matched resume.</li>
-                        <li>Automated job-specific skill gap analysis & match score calculator.</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span>MERN Stack</span>
-                        <span>AI Integration</span>
-                        <span>REST APIs</span>
-                        <span>Git/GitHub</span>
-                        <span>Vercel</span>
-                    </div>
-                    <div class="project-cta">
-                        <a href="https://jobhunter-jet.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm">
-                            <i class="fa-solid fa-bolt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 3: NebulaCrypt -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-badge conference">IC6GFWN-2026</div>
-                    <div class="project-links">
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>NebulaCrypt – Secure Transmission</h3>
-                    <p class="project-subtitle">Document Protection & Pixel-Level Scrambling System</p>
-                    <p class="project-desc">
-                        Patented-approach encryption pipeline converting sensitive PDFs into secure scrambled images, ensuring intercepted files are mathematically unreadable without dual authentication.
-                    </p>
-                    <ul class="project-bullets">
-                        <li>Combines pixel-level scrambling with mathematical XOR encryption.</li>
-                        <li>2-Factor credential & cryptographic key-based decryption engine.</li>
-                        <li>Validated over 100+ files; presented & defended at IC6GFWN-2026.</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span>Python</span>
-                        <span>React.js</span>
-                        <span>XOR Cipher</span>
-                        <span>Pixel Scrambling</span>
-                        <span>2FA Security</span>
-                    </div>
-                    <div class="project-cta">
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
-                            <i class="fa-brands fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 4: Real-Time Chat App -->
-            <div class="project-card">
-                <div class="project-header">
-                    <div class="project-badge">WebSockets</div>
-                    <div class="project-links">
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3>Real-Time Chat Application</h3>
-                    <p class="project-subtitle">Instant Messaging with Socket.io & JWT Authentication</p>
-                    <p class="project-desc">
-                        Full stack communication application enabling instant one-to-one messaging with bidirectional WebSocket communication, live status indicators, and encrypted chat storage.
-                    </p>
-                    <ul class="project-bullets">
-                        <li>Instant bidirectional messaging with Socket.io channels.</li>
-                        <li>JWT authentication with secure token-based user sessions.</li>
-                        <li>Responsive React UI with smooth mobile-first experience.</li>
-                    </ul>
-                    <div class="tech-tags">
-                        <span>React.js</span>
-                        <span>Node.js</span>
-                        <span>Socket.io</span>
-                        <span>Express.js</span>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="project-cta">
-                        <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
-                            <i class="fa-brands fa-github"></i> Source Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technical Skills Section -->
-    <section class="skills" id="skills">
-        <h2 class="heading">Technical <span>Skills</span></h2>
-
-        <div class="skills-grid">
-            <!-- Programming Languages -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
-                <h3>Programming Languages</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-solid fa-terminal"></i> C / C++</span>
-                    <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
-                    <span class="skill-pill"><i class="fa-solid fa-code"></i> TypeScript</span>
-                </div>
-            </div>
-
-            <!-- Web Development -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-globe"></i></div>
-                <h3>Web & Full Stack</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-brands fa-react"></i> React.js</span>
-                    <span class="skill-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
-                    <span class="skill-pill"><i class="fa-solid fa-server"></i> Express.js</span>
-                    <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> RESTful APIs</span>
-                    <span class="skill-pill"><i class="fa-solid fa-layer-group"></i> Redux Toolkit</span>
-                    <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5</span>
-                    <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
-                    <span class="skill-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
-                </div>
-            </div>
-
-            <!-- Databases -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
-                <h3>Databases</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-solid fa-leaf"></i> MongoDB (NoSQL)</span>
-                    <span class="skill-pill"><i class="fa-solid fa-database"></i> SQL (MySQL)</span>
-                </div>
-            </div>
-
-            <!-- Security & Integrations -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                <h3>Security & Integrations</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-solid fa-key"></i> JWT Authentication</span>
-                    <span class="skill-pill"><i class="fa-solid fa-user-shield"></i> Role-Based Access (RBAC)</span>
-                    <span class="skill-pill"><i class="fa-solid fa-lock"></i> bcrypt</span>
-                    <span class="skill-pill"><i class="fa-solid fa-shield"></i> Helmet.js</span>
-                    <span class="skill-pill"><i class="fa-solid fa-fingerprint"></i> OAuth (Meta OAuth)</span>
-                    <span class="skill-pill"><i class="fa-solid fa-credit-card"></i> Razorpay Gateway</span>
-                    <span class="skill-pill"><i class="fa-solid fa-robot"></i> LLM APIs (Gemini, DeepSeek, Claude)</span>
-                </div>
-            </div>
-
-            <!-- Core Computer Science -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-brain"></i></div>
-                <h3>Core Computer Science</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-solid fa-sitemap"></i> Data Structures & Algorithms</span>
-                    <span class="skill-pill"><i class="fa-solid fa-cubes"></i> OOPs Concepts</span>
-                    <span class="skill-pill"><i class="fa-solid fa-table"></i> DBMS & SQL</span>
-                    <span class="skill-pill"><i class="fa-solid fa-microchip"></i> Operating Systems</span>
-                    <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> Computer Networks</span>
-                    <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> SDLC</span>
-                </div>
-            </div>
-
-            <!-- Tools & DevOps -->
-            <div class="skill-category">
-                <div class="cat-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                <h3>Version Control & Tools</h3>
-                <div class="skills-list">
-                    <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
-                    <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
-                    <span class="skill-pill"><i class="fa-solid fa-paper-plane"></i> Postman</span>
-                    <span class="skill-pill"><i class="fa-brands fa-docker"></i> Docker</span>
-                    <span class="skill-pill"><i class="fa-solid fa-cloud-arrow-up"></i> Vercel</span>
-                    <span class="skill-pill"><i class="fa-brands fa-aws"></i> AWS Basics (EC2, S3)</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education & Achievements Section -->
     <section class="education" id="education">
-        <h2 class="heading">Education & <span>Achievements</span></h2>
 
-        <div class="edu-achieve-container">
-            <!-- Education Column -->
-            <div class="edu-column">
-                <h3 class="sub-heading"><i class="fa-solid fa-graduation-cap"></i> Academic Journey</h3>
-                
-                <div class="timeline-items">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2022 – 2026</div>
-                        <div class="timeline-content">
-                            <h3>B.E. in Computer Science and Engineering</h3>
-                            <h4>Krishnasamy College of Engineering and Technology</h4>
-                            <p class="cgpa-badge">Graduated May 2026 · CGPA: <strong>8.3 / 10.0</strong> (85%)</p>
-                            <p>Rigorous coursework covering Data Structures & Algorithms, Database Management Systems, Computer Networks, and Software Engineering.</p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2019 – 2021</div>
-                        <div class="timeline-content">
-                            <h3>Higher Secondary & Secondary Education</h3>
-                            <h4>Ramasamy Chettiyar Hr. Sec. School & Sarasu Matriculation School</h4>
-                            <p>Completed 12th Higher Secondary and 10th SSLC (433 Marks) with focus on Computer Science and Mathematics.</p>
-                        </div>
-                    </div>
+        <h2 class="heading">Education & Experience</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    Aug 2026 – Oct 2026
+                </div>
+                <div class="timeline-content">
+                    <h3>Software Developer Intern</h3>
+                    <p><strong>Softtwig Technology Solutions, Chennai (On-site)</strong><br>
+                        Architected AdMadee, a multi-tenant AI marketing SaaS for 3 user roles (Admin, Employee, Customer).
+                        Secured 20+ REST API routes with RBAC (JWT, bcrypt, Helmet.js).
+                        Integrated 3 LLM APIs (Gemini, DeepSeek, Claude) for sub-10s ad generation, Razorpay payments, Meta OAuth, and email cron jobs.
+                    </p>
                 </div>
             </div>
 
-            <!-- Achievements Column -->
-            <div class="achieve-column">
-                <h3 class="sub-heading"><i class="fa-solid fa-trophy"></i> Key Achievements</h3>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2022-2026
+                </div>
+                <div class="timeline-content">
+                    <h3>College</h3>
+                    <p><strong>Krishnasamy College of Engineering and Technology</strong><br>
+                        Completed B.E. in Computer Science and Engineering (Graduated May 2026) with <strong>CGPA: 8.3 / 10.0 (85%)</strong>.
+                        Strong foundation in Data Structures and Algorithms (DSA), OOPs, DBMS, Operating Systems, Computer Networks, and SDLC.
+                    </p>
+                </div>
+            </div>
 
-                <div class="achievement-cards">
-                    <div class="achieve-card">
-                        <div class="achieve-icon gold"><i class="fa-solid fa-award"></i></div>
-                        <div class="achieve-details">
-                            <h4>2nd Place – Paper Presentation</h4>
-                            <p>Awarded 2nd place for research paper on <strong>"AI Applications in 6G Technology"</strong> among 25+ academic and institutional submissions.</p>
-                        </div>
-                    </div>
-
-                    <div class="achieve-card">
-                        <div class="achieve-icon blue"><i class="fa-solid fa-code"></i></div>
-                        <div class="achieve-details">
-                            <h4>100+ LeetCode Challenges Solved</h4>
-                            <p>Demonstrated strong algorithmic problem solving in C++ across arrays, strings, two pointers, binary trees, recursion, and dynamic programming.</p>
-                            <a href="https://leetcode.com/u/Avinash_developer" target="_blank" rel="noopener noreferrer" class="achieve-link">
-                                View Profile <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="achieve-card">
-                        <div class="achieve-icon cyan"><i class="fa-solid fa-shield-virus"></i></div>
-                        <div class="achieve-details">
-                            <h4>Conference Research Defense (IC6GFWN-2026)</h4>
-                            <p>Presented the security architecture and pixel-scrambling XOR encryption design of <strong>NebulaCrypt</strong> and defended it in a formal project viva.</p>
-                        </div>
-                    </div>
-
-                    <div class="achieve-card">
-                        <div class="achieve-icon purple"><i class="fa-solid fa-laptop-code"></i></div>
-                        <div class="achieve-details">
-                            <h4>Hackathons & Technical Symposiums</h4>
-                            <p>Active participant in competitive college mini-hackathons, rapid prototyping challenges, and technical symposiums.</p>
-                        </div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">
+                    2019-2021
+                </div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>10th - Sarasu Matriculation School, Chidambaram (Completed 10th with 433 marks).<br>
+                        12th - Ramasamy Chettiyar Hr. Sec. School, Chidambaram (Completed Higher Secondary Education in Computer Science & Maths).
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <section class="skill" id="skill">
+        <div class="skills-box">
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <div class="skill-box">
+                    <img src="images/chat_app.jpg" alt="AdMadee SaaS">
+                    <h4>AdMadee – AI Marketing SaaS</h4>
+                    <p>
+                        Architected a multi-tenant AI marketing SaaS for 3 user roles (Admin, Employee, Customer) using React.js, Node.js, Express.js, and MongoDB.
+                        Secured 20+ REST API routes with RBAC, JWT, bcrypt, and Helmet.js.
+                        Accelerated ad creation to under 10 seconds with 3 LLM APIs (Gemini, DeepSeek, Claude).
+                        Automated Razorpay payments, Meta OAuth publishing, and cron-scheduled emails.
+                    </p>
+                    <a href="https://admadeee.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline; font-size: 1.4rem; font-weight: 600; margin-top: 10px;">Live Demo ↗</a>
+                </div>
+
+                <div class="skill-box">
+                    <img src="images/secure.jpg" alt="Job Hunter Platform">
+                    <h4>Job Hunter – AI Recruiting</h4>
+                    <p>
+                        Developed an AI recruiting platform with 4 core modules (job discovery, recommendations, resume management, application workflows) using MERN stack.
+                        Built 20+ REST API routes with multi-criteria search queries (3+ filters).
+                        Created an AI-assisted auto-apply workflow and job-specific skill-gap analysis with resume-to-job match score.
+                    </p>
+                    <a href="https://jobhunter-jet.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline; font-size: 1.4rem; font-weight: 600; margin-top: 10px;">Live Demo ↗</a>
+                </div>
+
+                <div class="skill-box">
+                    <img src="images/c++.png" alt="NebulaCrypt">
+                    <h4>NebulaCrypt – Secure Transmission</h4>
+                    <p>
+                        Engineered a document protection system in Python converting PDFs into protected images via pixel-level scrambling combined with XOR encryption.
+                        Designed 2-factor credential and key-based decryption for authorized recovery only.
+                        Validated accuracy across 100+ test files with React.js UI; defended at IC6GFWN-2026.
+                    </p>
+                    <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" style="color: var(--main-color); text-decoration: underline; font-size: 1.4rem; font-weight: 600; margin-top: 10px;">GitHub Repo ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="contact" id="contact">
-        <h2 class="heading">Get In <span>Touch</span></h2>
-
-        <div class="contact-wrapper">
-            <!-- Contact Details -->
-            <div class="contact-info">
-                <h3>Let's collaborate on your next project!</h3>
-                <p>
-                    I'm actively seeking full-time Software Developer / MERN Full Stack opportunities.
-                    Whether you have an opening, a question, or an exciting project idea, feel free to reach out!
-                </p>
-
-                <div class="info-items">
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:avinashdeveloper27@gmail.com">avinashdeveloper27@gmail.com</a>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+917826004975">+91 7826004975</a>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Chennai, Tamil Nadu, India</p>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-brands fa-linkedin"></i></div>
-                        <div>
-                            <h4>LinkedIn</h4>
-                            <a href="https://www.linkedin.com/in/avinash2705" target="_blank" rel="noopener noreferrer">linkedin.com/in/avinash2705</a>
-                        </div>
-                    </div>
-
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fa-brands fa-github"></i></div>
-                        <div>
-                            <h4>GitHub</h4>
-                            <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer">github.com/Avi2705</a>
-                        </div>
-                    </div>
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formsubmit.co/avinashdeveloper27@gmail.com" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="number" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject" required>
                 </div>
             </div>
-
-            <!-- Contact Form -->
-            <form action="https://formsubmit.co/avinashdeveloper27@gmail.com" method="POST" class="contact-form">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-
-                <div class="input-box">
-                    <div class="input-field">
-                        <input type="text" name="name" placeholder="Full Name" required>
-                    </div>
-                    <div class="input-field">
-                        <input type="email" name="email" placeholder="Email Address" required>
-                    </div>
-                </div>
-
-                <div class="input-box">
-                    <div class="input-field">
-                        <input type="tel" name="phone" placeholder="Phone Number">
-                    </div>
-                    <div class="input-field">
-                        <input type="text" name="subject" placeholder="Subject" required>
-                    </div>
-                </div>
-
-                <div class="input-field full-width">
-                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-                </div>
-
-                <button type="submit" class="btn">
-                    <i class="fa-solid fa-paper-plane"></i> Send Message
-                </button>
-            </form>
-        </div>
+            <div class="input-group2">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="social">
-            <a href="https://www.linkedin.com/in/avinash2705" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer" title="GitHub">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://leetcode.com/u/Avinash_developer" target="_blank" rel="noopener noreferrer" title="LeetCode">
-                <img src="./images/leetcode.png" alt="LeetCode">
-            </a>
-            <a href="mailto:avinashdeveloper27@gmail.com" title="Email">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
+            <a href="https://www.linkedin.com/in/avinash2705" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Avi2705" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="https://leetcode.com/u/Avinash_developer" target="_blank" rel="noopener noreferrer"><img src="./images/leetcode.png" alt="LeetCode"></a>
         </div>
-
         <ul class="list">
             <li><a href="#home">Home</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="images/SOFTWAREDEVELOPER.pdf" target="_blank">Resume</a></li>
         </ul>
-
         <p class="copyright">
-            © 2026 Avinash R. Built with precision & modern web technologies.
+            Avinash R | All rights reserved
         </p>
     </footer>
 
